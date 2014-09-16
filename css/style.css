@@ -96,3 +96,14 @@ footer {
   height: 450px;
     /*高さは仮のサイズ*/
 }
+/* -- pagetopボタン -- */
+.btn_pt {
+  position: fixed;
+  right: 20px;
+  bottom: 0;
+  width: 92px;
+  height: 49px;
+  display: block;
+  display: none;
+  z-index: 10;
+}
