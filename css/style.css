@@ -25,25 +25,37 @@ body {
 /* -- header -- */
 header{
   min-width: 960px;
+  width: 90%;
+  height:77px;
   margin: 0 auto;
-  width:85%;
-  height:80px;
 }
 .nav-logo {
   float: left;
 }
 .menu-left {
   float: left;
+  margin: 30px 0 0 25px;
 }
 .menu-right {
   float: right;
+  margin-top: 30px;
 }
 .menu-left li ,.menu-right li {
   display: inline-block;
-  font-size: 13px;
+  font-size: 15px;
+  text-align: center;
   font-weight: 400;
-  width: 100px;
-  height:65px;
+  width: 150px;
+  height:35px;
+}
+.menu-left li a,.menu-right li a {
+  font-family: "genBold";
+  text-decoration:  none;
+  color: #999;
+}
+.menu-left li a:hover,.menu-right li a:hover {
+  font-family: "genBold";
+  color: #000;
 }
 /* -- title-box -- */
 .title-box {
@@ -57,8 +69,8 @@ header{
 }
 .title-section h1 {
   color: #fff;
-  font-size: 48px;
-  padding: 150px 0 10px;
+  font-size: 34px;
+  padding: 150px 0 15px;
 }
 .title-section p {
   color: #fff;
