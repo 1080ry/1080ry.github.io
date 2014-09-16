@@ -2,7 +2,7 @@
 $(document).ready(function() {
     var pagetop = $('.btn_pt');
     $(window).scroll(function () {
-        if ($(this).scrollTop() > 700) {
+        if ($(this).scrollTop() > 400) {
             pagetop.fadeIn();
         } else {
             pagetop.fadeOut();
